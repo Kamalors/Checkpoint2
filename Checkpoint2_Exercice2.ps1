@@ -66,7 +66,7 @@ foreach ($User in $Users) {
         }
 
         New-LocalUser @UserInfo
-        Add-LocalGroupMember -Group "Utilisateur" -Member "$Prenom.$Nom"
+        Add-LocalGroupMember -Group "Utilisateur" -Member "$Name"
         Write-Host "Le compte $Prenom.$Nom a été créé avec le mot de passe $Pass" -ForegroundColor Green
         Log "Le compte $Prenom.$Nom a été créé avec le mot de passe $Pass"
     }
