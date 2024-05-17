@@ -31,3 +31,7 @@ Oui, car la variable $Description n’est pas dans la variable UserInfo = @{}.
 
 **Q2.9**
 La première fonction sert à savoir quand le script a été utilisé. La seconde indique quel profil a été créé.
+
+**Q2.16**
+
+Elle sert a suprimer les caracter accents d'un prenom et nom exemple Stéphanie Lénoire devient stéphanie.lenoire 
