@@ -61,7 +61,7 @@ foreach ($User in $Users) {
             FullName             = $Name
             Password             = $Password
             AccountNeverExpires  = $true
-            PasswordNeverExpires = $false
+            PasswordNeverExpires = $true
             Description          = $Description
         }
 
